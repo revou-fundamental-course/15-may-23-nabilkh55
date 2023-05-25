@@ -1,0 +1,106 @@
+body {
+    background: #ebebeb;
+}
+
+header {
+    background: #6bdaff;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+    font-size: 200%;
+}
+
+.subtitle {
+    font-size: small;
+    color: gray;
+    font-size: 125%;
+}
+
+.card {
+    background: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.luas {
+    background: #2cb1dd;
+    text-align: center;
+    padding: 10px 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.keliling {
+    background: #6bdaff;
+    text-align: center;
+    padding: 10px 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card-persegi {
+    border-right: 2px solid #2cb1dd;
+    border-left: 2px solid #2cb1dd;
+    border-bottom: 2px solid #2cb1dd;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#title {
+    background: #2cb1dd;
+    text-align: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 180%;
+    color: white;
+    margin-top: 40px;
+}
+
+.persegi {
+    border-style: solid;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.results {
+    text-align: center;
+    font-size: 120%;
+}
+
+.hasil {
+    width: 500px;
+    height: 25px;
+}
+
+.btn-hitung {
+    background-color: #2cb1dd;
+    border: 1px solid #2cb1dd;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.btn-reset {
+    background-color: orange;
+    border: 1px orange;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+
+.reset {
+    text-align: end;
+    margin-right: 30px;
+}

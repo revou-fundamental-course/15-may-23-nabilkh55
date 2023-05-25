@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <span class="title">Katik&nbsp;</span><span class="subtitle">Kalkulator Matematik</span>
+    </header>
+    <main>
+        <br>
+        <div class="card">
+            <div class="content">
+                <br>
+                <h2>Welcome to Katik</h2>
+                Hai Sobat, Selamat datang di Katik :]
+                <br>
+                Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling persegi
+            </div>
+            <br>
+            <div class="luas">
+                <a href="#luas">Luas Persegi</a>
+            </div>
+            <div class="keliling">
+                <a href="#keliling">Keliling Persegi</a>
+            </div>
+            <div class="card-persegi">
+                <div id="title">
+                    <a id="luas">Luas Persegi</a>
+                </div>
+                <div class="persegi"></div>
+                <br>
+                <div>
+                    <p>&emsp; Rumus Luas Persegi yaitu :</p>
+                    <p style="text-align: center;">L = S x S</p>
+                    <p>&emsp; Di mana :</p> 
+                    <p>&emsp; L = Luas</p>
+                    <p>&emsp; S = Sisi</p>
+                </div>
+                <br>
+                <hr>
+                <div class="results">
+                    <h2>Hitung Luas Persegi</h2>
+                    <input class="hasil" id="sisiluas" type="number" name="sisi-luas" placeholder="Nilai Sisi...">
+                    <br><br>
+                    <button class="btn-hitung" type="button" name="hitung-luas" onclick="hitungluas()">Hitung</button>
+                </div>
+                <div>
+                    <p id="rumus-luas"></p>
+                    <p id="perhitungan-luas"></p>
+                    <p id="output_luas"></p>
+                </div>
+                <br>
+                <div class="reset">
+                    <button class="btn-reset" type="button" name="reset-luas" onclick="resetluas()">Reset</button>
+                </div>
+                <br><br>
+            </div>
+            <div class="card-persegi">
+                <div id="title">
+                    <a id="keliling">Keliling Persegi</a>
+                </div>
+                <div class="persegi"></div>
+                <br>
+                <div>
+                    <p>&emsp; Rumus Keliling Persegi yaitu :</p>
+                    <p style="text-align: center;">K = 4 x S</p>
+                    <p>&emsp; Di mana :</p>
+                    <p>&emsp; K = Keliling</p>
+                    <p>&emsp; S = Sisi</p>
+                </div>
+                <br>
+                <hr>
+                <div class="results">
+                    <h2>Hitung Keliling Persegi</h2>
+                    <input class="hasil" id="sisikeliling" type="number" name="sisi-keliling" placeholder="Nilai Sisi...">
+                    <br><br>                                                     
+                    <button class="btn-hitung" type="button" name="hitung-keliling" onclick="hitungkeliling()">Hitung</button>
+                </div>
+                <div>
+                    <p id="rumus-keliling"></p>
+                    <p id="perhitungan-keliling"></p>
+                    <p id="output_keliling"></p>
+                </div>
+                <br>
+                <div class="reset">
+                    <button class="btn-reset" type="button" name="reset-keliling" onclick="resetkeliling()">Reset</button>
+                </div>
+                <br><br>
+            </div>
+            <br>
+        </div>
+    </main>
+</body>
+</html>
